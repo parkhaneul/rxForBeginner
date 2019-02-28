@@ -97,7 +97,7 @@ onError
 
 ## 사용자 연산자
 
-***
+```swift
 extension ObservableType {
     func myMap<R>(transform: @escaping (E) -> R) -> Observable<R> {
         return Observable.create { observer in
@@ -116,7 +116,7 @@ extension ObservableType {
         }
     }
 }
-***
+```
 
 ## BackPressure
 
