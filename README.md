@@ -97,6 +97,7 @@ onError
 
 ## 사용자 연산자
 
+***
 extension ObservableType {
     func myMap<R>(transform: @escaping (E) -> R) -> Observable<R> {
         return Observable.create { observer in
@@ -111,11 +112,11 @@ extension ObservableType {
                         observer.on(.completed)
                     }
                 }
-
             return subscription
         }
     }
 }
+***
 
 ## BackPressure
 
