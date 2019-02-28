@@ -126,11 +126,13 @@ extension ObservableType {
 
 rxSwift에서는 배압처리를 극히 특수한 경우라고 가정하고 지원하지 않은 대신, 다음 명령어를 사용하도록 권장함.
 
-## Debounce vs #Throttle
+## Debounce vs Throttle
 
-Debounce	일정 시간을 기준으로 이벤트를 나누고 해당 그룹 중 가장 마지막 이벤트만 호출
+Debounce
+일정 시간을 기준으로 이벤트를 나누고 해당 그룹 중 가장 마지막 이벤트만 호출
 
-Throttle	 	이벤트 사이에 일정 시간으로 간격을 두고 호출.
+Throttle
+이벤트 사이에 일정 시간으로 간격을 두고 호출.
 
 ## 예외
 
